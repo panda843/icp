@@ -4,7 +4,7 @@ type QueryRequest struct {
 	PageNum  string `json:"pageNum"`
 	PageSize string `json:"pageSize"`
 	UnitName string `json:"unitName"`
-	serviceType string `json:"serviceType"`
+	ServiceType string `json:"serviceType"`
 }
 
 type IcpResponse struct {
