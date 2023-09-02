@@ -1,3 +1,3 @@
-module github.com/fghwett/icp
+module github.com/panda843/icp
 
 go 1.16
