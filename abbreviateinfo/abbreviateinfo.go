@@ -32,6 +32,7 @@ func (i *Icp) Query(domain string) (*model.DomainInfo, error) {
 func (i *Icp) query(domain string) (*model.DomainInfo, error) {
 	queryRequest, _ := json.Marshal(&model.QueryRequest{
 		UnitName: domain,
+		ServiceType: 1,
 	})
 
 	result := &model.IcpResponse{Params: &model.QueryParams{}}
